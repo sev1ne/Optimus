@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optimus - Game-Based Community Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                        <rect x="2" y="2" width="28" height="28" rx="4" fill="#00D4FF"/>
+                        <path d="M12 16L14.5 18.5L20 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <span>Optimus</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#waitlist" class="btn-primary">Join Waitlist</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Find Your Gaming Community</h1>
+                <p>Optimus automatically connects you with players who share your passion for the same games. No more hunting through endless Discord servers.</p>
+                <div class="hero-buttons">
+                    <button class="btn-primary btn-large" onclick="scrollToWaitlist()">Get Early Access</button>
+                    <button class="btn-secondary btn-large">Watch Demo</button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Games Supported</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">10K+</span>
+                        <span class="stat-label">Waitlist Members</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">24/7</span>
+                        <span class="stat-label">Active Communities</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-card card-1">
+                    <div class="game-tag">Valorant</div>
+                    <p>245 players online</p>
+                </div>
+                <div class="floating-card card-2">
+                    <div class="game-tag">League of Legends</div>
+                    <p>1,823 players online</p>
+                </div>
+                <div class="floating-card card-3">
+                    <div class="game-tag">CS:GO</div>
+                    <p>892 players online</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Why Choose Optimus?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                            <circle cx="20" cy="20" r="18" stroke="#00D4FF" stroke-width="2"/>
+                            <path d="M20 10V30M10 20H30" stroke="#00D4FF" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Smart Game Detection</h3>
+                    <p>We automatically detect the games you play and create personalized communities for you.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                            <circle cx="20" cy="20" r="18" stroke="#00D4FF" stroke-width="2"/>
+                            <path d="M12 20C12 15.58 15.58 12 20 12C24.42 12 28 15.58 28 20C28 24.42 24.42 28 20 28" stroke="#00D4FF" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Instant Communities</h3>
+                    <p>No more scrolling through servers. Your gaming communities are auto-organized by game.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                            <circle cx="20" cy="20" r="18" stroke="#00D4FF" stroke-width="2"/>
+                            <path d="M14 18C14 16.9 14.9 16 16 16H24C25.1 16 26 16.9 26 18V26C26 27.1 25.1 28 24 28H16C14.9 28 14 27.1 14 26V18Z" stroke="#00D4FF" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M18 20L22 24" stroke="#00D4FF" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Smart Filtering</h3>
+                    <p>Find players by skill level, region, playstyle, and more. Meet your perfect squad.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                            <circle cx="20" cy="20" r="18" stroke="#00D4FF" stroke-width="2"/>
+                            <path d="M20 28C24.4183 28 28 24.4183 28 20C28 15.5817 24.4183 12 20 12C15.5817 12 12 15.5817 12 20C12 24.4183 15.5817 28 20 28Z" stroke="#00D4FF" stroke-width="2"/>
+                            <path d="M20 16V20L23 23" stroke="#00D4FF" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Real-Time Activity</h3>
+                    <p>See who's online, what games are trending, and jump into action instantly.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                            <circle cx="20" cy="20" r="18" stroke="#00D4FF" stroke-width="2"/>
+                            <rect x="12" y="14" width="16" height="12" rx="2" stroke="#00D4FF" stroke-width="2"/>
+                            <path d="M12 18H28" stroke="#00D4FF" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Safe & Moderated</h3>
+                    <p>Our AI-powered moderation keeps communities welcoming and safe for all players.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                            <circle cx="20" cy="20" r="18" stroke="#00D4FF" stroke-width="2"/>
+                            <path d="M20 10C14.48 10 10 14.48 10 20C10 25.52 14.48 30 20 30C25.52 30 30 25.52 30 20C30 14.48 25.52 10 20 10ZM20 28C15.58 28 12 24.42 12 20C12 15.58 15.58 12 20 12C24.42 12 28 15.58 28 20C28 24.42 24.42 28 20 28Z" stroke="#00D4FF" stroke-width="2"/>
+                            <path d="M18 20L21 23L26 15" stroke="#00D4FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3>Verified Players</h3>
+                    <p>Connect with verified players and build trust within your gaming community.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2>How Optimus Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Sign Up</h3>
+                    <p>Create your Optimus account in seconds using your gaming credentials.</p>
+                </div>
+                <div class="step-arrow">→</div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Connect Games</h3>
+                    <p>Link your Steam, Epic, Blizzard, or console accounts to get started.</p>
+                </div>
+                <div class="step-arrow">→</div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Discover Communities</h3>
+                    <p>Browse auto-generated servers based on the games you play.</p>
+                </div>
+                <div class="step-arrow">→</div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Play Together</h3>
+                    <p>Join communities, find teammates, and play with people who share your passion.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2>Simple, Transparent Pricing</h2>
+            <div class="pricing-cards">
+                <div class="pricing-card">
+                    <h3>Free</h3>
+                    <div class="price">
+                        <span class="currency">$</span>
+                        <span class="amount">0</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <ul class="features-list">
+                        <li>✓ Game detection & discovery</li>
+                        <li>✓ Join up to 5 communities</li>
+                        <li>✓ Basic filtering</li>
+                        <li>✓ Community chat</li>
+                        <li>✗ Advanced analytics</li>
+                        <li>✗ Priority support</li>
+                    </ul>
+                    <button class="btn-secondary">Get Started</button>
+                </div>
+
+                <div class="pricing-card featured">
+                    <div class="badge">Most Popular</div>
+                    <h3>Premium</h3>
+                    <div class="price">
+                        <span class="currency">$</span>
+                        <span class="amount">9.99</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <ul class="features-list">
+                        <li>✓ Everything in Free</li>
+                        <li>✓ Join unlimited communities</li>
+                        <li>✓ Advanced game filtering</li>
+                        <li>✓ Skill-based matchmaking</li>
+                        <li>✓ Community analytics</li>
+                        <li>✓ Priority support</li>
+                        <li>✓ Custom server branding</li>
+                    </ul>
+                    <button class="btn-primary">Start Free Trial</button>
+                </div>
+
+                <div class="pricing-card">
+                    <h3>Server Owner</h3>
+                    <div class="price">
+                        <span class="currency">$</span>
+                        <span class="amount">19.99</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <ul class="features-list">
+                        <li>✓ Everything in Premium</li>
+                        <li>✓ Advanced moderation tools</li>
+                        <li>✓ Server analytics dashboard</li>
+                        <li>✓ Custom roles & permissions</li>
+                        <li>✓ Monetization features</li>
+                        <li>✓ Dedicated support</li>
+                    </ul>
+                    <button class="btn-secondary">Upgrade</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Waitlist Section -->
+    <section id="waitlist" class="waitlist">
+        <div class="container">
+            <div class="waitlist-content">
+                <h2>Join 10,000+ Gamers Waiting for Optimus</h2>
+                <p>Be among the first to experience game-based communities. Get early access and exclusive perks.</p>
+                <form id="waitlistForm" class="waitlist-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit" class="btn-primary">Join Waitlist</button>
+                </form>
+                <p class="form-note">We'll never spam you. Unsubscribe anytime.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Optimus</h4>
+                    <p>Game-based community platform for gamers, by gamers.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#how-it-works">How It Works</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                        <li><a href="#terms">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Optimus. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#twitter">Twitter</a>
+                    <a href="#discord">Discord</a>
+                    <a href="#youtube">YouTube</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
